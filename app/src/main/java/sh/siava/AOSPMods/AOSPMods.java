@@ -70,7 +70,6 @@ public class AOSPMods implements IXposedHookLoadPackage {
 		//region Mod list definition
 		modPacks.add(NotificationExpander.class); //13 OK
 		modPacks.add(QSTileGrid.class); //
-		modPacks.add(BrightnessSlider.class); //13 OK
 		modPacks.add(FeatureFlagsMods.class); //13 OK
 		modPacks.add(ThreeButtonNavMods.class); //13 not planned//13 OK
 		modPacks.add(LockscreenAlbumArt.class); //13 not planned
@@ -100,7 +99,6 @@ public class AOSPMods implements IXposedHookLoadPackage {
 		modPacks.add(FlashLightLevel.class); //13 based
 		modPacks.add(CustomNavGestures.class);
 		modPacks.add(PhoneWindowManager.class);
-		modPacks.add(BrightnessRange.class);
 		modPacks.add(ClearAllButtonMod.class);
 		modPacks.add(NotificationManager.class);
 		//endregion
